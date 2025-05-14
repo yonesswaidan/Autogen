@@ -1,7 +1,7 @@
 Kør lokalt i mappen i terminalen:
 
 python -m venv venv
-source venv/bin/activate  # På Windows: venv\Scripts\activate
+source venv/bin/activate  
 
 Efterfølgende: 
 
