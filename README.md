@@ -1,22 +1,18 @@
-# Autogen AI Agent: Research Paper Finder
+Kør lokalt i mappen i terminalen:
 
-## 🔍 Purpose
-
-This AI agent helps find academic research papers based on:
-- Topic
-- Year (in/before/after)
-- Minimum number of citations
-
-## 🛠 Requirements
-
-- Python 3.8 to 3.12 (⚠️ Python 3.13 is not supported)
-- Dependencies in `requirements.txt`
-
-## 🚀 Getting Started
-
-1. Install Python 3.11
-2. Set up a virtual environment:
-
-```bash
 python -m venv venv
-venv\Scripts\activate  # Windows
+source venv/bin/activate  # På Windows: venv\Scripts\activate
+
+Efterfølgende: 
+
+pip install -r requirements.txt
+
+Kør programmet med:
+
+python main.py
+
+Du vil blive bedt om at skrive en forespørgsel i naturligt sprog, fx:
+
+Find a research paper on NLP that was published before 2018 and has 50 citations.
+
+Agenten returnerer en liste over relevante artikler og (valgfrit) en evaluering baseret på kendte relevante papers.
